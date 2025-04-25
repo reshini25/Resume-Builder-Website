@@ -1,0 +1,28 @@
+.simple-template {
+    font-family: Arial, sans-serif;
+    background-color: rgb(249, 249, 249);
+    padding: 30px;
+    border: 1px solid rgb(221, 221, 221);
+    color: #333;
+}
+.modern-template {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #f6f8ba, #ffd0d0);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+.modern-template h1{
+    color: brown;
+}
+
+.technical-template {
+    font-family: 'Courier New', monospace;
+    background-color: #302d2d;
+    color: #f7f2f2;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #444;
+}

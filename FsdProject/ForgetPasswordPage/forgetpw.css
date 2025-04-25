@@ -1,0 +1,31 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.reset-container{
+    border-radius: 20px;
+    background-color: white;
+    width:30%;
+    height:400px;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(https://e1.pxfuel.com/desktop-wallpaper/581/154/desktop-wallpaper-backgrounds-for-login-page-login-page.jpg); 
+}
+input[type="email"],
+input[type="password"]{
+    width:100%;
+    margin-bottom:20px;
+}
+button{
+    width:100%;
+}
