@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQs</title>
+  <link rel="stylesheet" href="">
+  <style>
+        body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8fafc;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #2c3e50;
+  margin-bottom: 40px;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.faq-question {
+  display: block;
+  font-weight: bold;
+  font-size: 1.1em;
+  cursor: pointer;
+  padding: 15px;
+  background-color: #ffffff;
+  color: #34495e;
+  transition: background 0.3s;
+}
+
+.faq-question:hover {
+  background-color: #f0f4f8;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  background-color: #fff;
+  padding: 0 15px;
+  color: #555;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ .faq-answer {
+  max-height: 500px;
+  padding: 15px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  .faq-question {
+    font-size: 1em;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <div class="faq-container">
+    <h1>Frequently Asked Questions</h1>
+    
+    <div class="faq-item">
+      <input type="checkbox" id="q1">
+      <label for="q1" class="faq-question">How do I create a resume on your website?</label>
+      <div class="faq-answer">
+        Simply sign up for a free account, choose a template, and start adding your information. Our editor will guide you through the process.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <input type="checkbox" id="q2">
+      <label for="q2" class="faq-question">Is there a free version available?</label>
+      <div class="faq-answer">
+        Yes! We offer a free version with essential features. Premium features like advanced templates and PDF downloads are part of our subscription plans.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <input type="checkbox" id="q3">
+      <label for="q3" class="faq-question">Can I download my resume as a PDF?</label>
+      <div class="faq-answer">
+        Absolutely. PDF downloads are available with our premium plan. You can preview and export your resume anytime.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <input type="checkbox" id="q4">
+      <label for="q4" class="faq-question">Do you offer customer support?</label>
+      <div class="faq-answer">
+        Yes, our support team is available via email at support@yourresumewebsite.com. We typically respond within 24 hours.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <input type="checkbox" id="q5">
+      <label for="q5" class="faq-question">How secure is my data?</label>
+      <div class="faq-answer">
+        We take security seriously. All data is encrypted, and we never share your information without consent. Read our Privacy Policy for details.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
