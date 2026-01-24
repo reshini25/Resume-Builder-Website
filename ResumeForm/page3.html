@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <title>Resume Details</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Resume Generator</h2>
+        <form class="form-class">
+            <div class="Education" action="page4.html" method="get">
+                <h4>3. Education</h4>
+                <div>
+                    <div class="mb-3 p-2">
+                        <label for="degree">Degree</label>
+                        <input type="text" id="degree" placeholder="eg., CSE">
+                    </div>
+                    <div class="mb-3 p-2">
+                        <label for="istname">Institution Name</label>
+                        <input type="text" id="istname">
+                    </div>
+                    <div class="mb-3 p-2">
+                        <label for="cgpa">CGPA</label>
+                        <input type="number" id="cgpa" min="0" max="10" step="0.01">
+                    </div>
+                    <div>
+                        <div class="mb-3 p-2">
+                            <label for="edu-city">City</label>
+                            <input type="text" id="edu-city">
+                        </div>
+                        <div class="mb-3 p-2">
+                            <label for="edu-state">State</label>
+                            <input type="text" id="edu-state"> 
+                        </div>
+                        <div class="mb-3 p-2">
+                            <label for="date">Graduation Date</label>
+                            <input type="Date" id="date">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="mb-3 p-2">
+                            <label for="school">School</label>
+                            <input type="text" id="school">
+                        </div>
+                        <div class="mb-3 p-2">   
+                            <label for="per">Percentage</label>
+                            <input type="number" id="per" min="0" max="100" step="0.01">
+                        </div>
+                        <div class="mb-3 p-2">
+                            <label for="scl-city">City</label>
+                            <input type="text" id="scl-city">
+                        </div>
+                        <div class="mb-3 p-2">
+                            <label for="scl-state">State</label>
+                            <input type="text" id="scl-state"> 
+                        </div>
+                    </div>
+                </div>
+            <div class="d-flex justify-content-between">
+                <a href="page2.html" class="btn btn-secondary">← Previous</a>
+                <button class="btn btn-success" id="nextBtn">Next →</button>
+            </div>
+        </form>
+    </div>
+    <script src="page3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script> <!--html2 library -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
